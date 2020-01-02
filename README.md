@@ -3,6 +3,7 @@
 ## typescript枚举数组化
 
 - **[作者邮箱：15524261@qq.com](mailto:15524261@qq.com)**
+- **[github项目地址：https://github.com/guqingming/enum-array](https://github.com/guqingming/enum-array)**
 - **[码云项目地址：https://gitee.com/mycssweb/enum-array](https://gitee.com/mycssweb/enum-array)**
 
 ## 截图

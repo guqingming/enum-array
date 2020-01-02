@@ -1,9 +1,9 @@
 {
   "name": "enum-array",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "enum-array",
   "author": "Gu Qingming <15524261@qq.com>",
-  "homepage": "https://gitee.com/mycssweb/enum-array",
+  "homepage": "https://github.com/guqingming/enum-array",
   "private": false,
   "main": "dist/enum-array.js",
   "license": "MIT",
@@ -14,7 +14,7 @@
   "types": "dist/enum-array.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/mycssweb/enum-array.git"
+    "url": "https://github.com/guqingming/enum-array"
   },
   "dependencies": {
     "core-js": "^3.5.0",
