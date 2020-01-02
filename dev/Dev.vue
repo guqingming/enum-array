@@ -36,9 +36,9 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator'
-import { getEnumArray, getValueByEnum } from '../src'
+// import { getEnumArray, getValueByEnum } from '../src'
 
-// import { getEnumArray, getValueByEnum } from 'enum-array'
+import { getEnumArray, getValueByEnum } from 'enum-array'
 
 /**
  * 原始枚举

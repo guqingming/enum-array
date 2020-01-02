@@ -1,6 +1,6 @@
 {
   "name": "enum-array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "enum-array",
   "author": "Gu Qingming <15524261@qq.com>",
   "homepage": "https://gitee.com/mycssweb/enum-array",
@@ -41,6 +41,7 @@
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.0",
     "cssnano": "^4.1.10",
+    "enum-array": "^1.0.0",
     "file-loader": "^5.0.2",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",

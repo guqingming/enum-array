@@ -9,8 +9,6 @@
 
 ![1](https://gitee.com/mycssweb/enum-array/raw/master/docs/1.png)
 
-![2](https://gitee.com/mycssweb/enum-array/raw/master/docs/2.png)
-
 ## 说明
 
 typescript枚举很高级，会自动生成一个key和value可逆的数据对象，但它本身不是一个可遍历的数据，我们在使用时有很多限制，于是我们将枚举重新包装成一个键值对的数组，可循环，数据且不重复。
