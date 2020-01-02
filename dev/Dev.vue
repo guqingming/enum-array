@@ -38,7 +38,7 @@
 import { Component, Prop, Vue } from 'vue-property-decorator'
 // import { getEnumArray, getValueByEnum } from '../src'
 
-import { getEnumArray, getValueByEnum } from 'enum-array'
+import enumArray from 'enum-array'
 
 /**
  * 原始枚举
@@ -58,7 +58,7 @@ export default class extends Vue {
    * 计算属性
    */
   get CitysArray() {
-    return getEnumArray(Citys)
+    return enumArray.getEnumArray(Citys)
   }
   /**
    * 初始数据
@@ -67,8 +67,8 @@ export default class extends Vue {
   private Citys = Citys
 
   /** 取值 */
-  private getValueByEnum(key: string, obj: any) {
-    return getValueByEnum(key, obj)
+  private getValueByEnum(key: number, obj: any) {
+    return enumArray.getValueByEnum(key, obj)
   }
 }
 </script>

@@ -1,4 +1,8 @@
 declare module 'enum-array' {
-  export function getEnumArray(emun: any): any[];
-  export function getValueByEnum(key: string | number, obj: any[]): string;
+  interface EnumArrayObj {
+    key: number;
+    value: string;
+  }
+  function getEnumArray(emun: object): EnumArrayObj[];
+  function getValueByEnum(key: number, obj: EnumArrayObj[]): string;
 }

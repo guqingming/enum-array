@@ -23,7 +23,7 @@ $ npm install enum-array
 
 ```js
 import Vue from 'vue'
-import EnumArray, { getEnumArray, getValueByEnum } from 'enum-array'
+import enumArray from 'enum-array'
 ```
 
 使用组件
@@ -41,15 +41,13 @@ enum Citys {
 /**
  * 枚举数组化
  */
-getEnumArray(Enum)
-// getEnumArray(Citys)
-// EnumArray.getEnumArray(Citys)
+enumArray.getEnumArray(Enum)
+// enumArray.getEnumArray(Citys)
 
 /**
  * 从可枚举数组中取值
  */
-getValueByEnum(key, getEnumArray(Enum))
-// getValueByEnum(10, getEnumArray(Citys))
+enumArray.getValueByEnum(key, getEnumArray(Enum))
 // EnumArray.getValueByEnum(10, getEnumArray(Citys))
 ```
 
