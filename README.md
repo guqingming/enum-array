@@ -20,14 +20,13 @@ typescript枚举很高级，会自动生成一个key和value可逆的数据对�
 $ npm install enum-array
 ```
 
-注册组件
+引入模块
 
 ```js
-import Vue from 'vue'
 import enumArray from 'enum-array'
 ```
 
-使用组件
+使用方法
 
 ```js
 /**
